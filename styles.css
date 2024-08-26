@@ -1,0 +1,67 @@
+/* Basic Reset*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+/* Header Style*/
+header{
+    background-color:darkseagreen;
+    color: #333; 
+    padding: 15px; 
+    text-align:center ;
+}
+/* Profile Picture Style*/
+.digital-Art{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    box-shadow: 0 0 0.8150;
+}
+/* Gneral Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+/* Navbar Styling */
+.navbar{
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: first baseline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-item{
+    margin: auto;
+}
+.nav-link{
+    text-decoration: none;
+    color: #fff8e1;
+    font-weight:bold;
+    padding: 8px 16px;
+}
+.nav-link:hover{
+    background-color: #8b6f61;
+    border-radius: 5px;
+    color: #fff8e1;
+}
+/* Responsive Design*/
+@media(max-width:768){
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        .nav-list{
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+}
