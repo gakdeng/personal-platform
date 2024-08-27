@@ -20,6 +20,15 @@ header{
     margin-top: 10px;
     box-shadow: 0 0 0.8150;
 }
+/* main headidng section */
+#home{
+    background-color: antiquewhite;
+    margin-left: -1cm;
+    margin-right: -1cm;
+    margin-top: -1cm;
+    padding-top: -1cm;
+    padding-bottom: -2cm;float: left;
+}
 /* Gneral Reset */
 *{
     margin: 0;
@@ -31,9 +40,19 @@ header{
     background-color: #333;
     padding: 20px;
     display: flex;
-    justify-content: flex-start;
-    align-content: first baseline;
+    justify-content: space-between;
+    align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo{
+color:whitesmoke;
+font-size: 30px;
+background-color: #333;
+border: none;
+float: right;
+}
+.logo span{
+    color: yellowgreen;
 }
 .nav-list{
     list-style: none;
@@ -48,11 +67,30 @@ header{
     color: #fff8e1;
     font-weight:bold;
     padding: 8px 16px;
+    float: right;
 }
 .nav-link:hover{
     background-color: #8b6f61;
     border-radius: 5px;
     color: #fff8e1;
+} /* This is the form section */
+label{
+    display: block;
+    margin-top: 1cm;
+}
+label:first-of-type{
+    margin-top: 0;
+}
+input{
+    padding: 1cm;
+    border: ;
+}
+.aboutme-section,.hobbies-section{
+    padding: 10px;
+    border:1px solid #ddd ;
+}
+.aboutme-section{
+    background-color: #f4f4f4;
 }
 /* Responsive Design*/
 @media(max-width:768){

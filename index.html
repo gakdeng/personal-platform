@@ -10,23 +10,24 @@
     <!--This will be the navbar section-->
     <nav class="navbar">
         <ul class="nav-list">
-            <li class="nav-item"><a href="#About Me" class="nav-link">About Me</a></li>
+            <li class="nav-item" ><a href="#About Me" class="nav-link">About Me</a></li>
             <li class="nav-item"><a href="#Hobbies" class="nav-link">Hobbies</a></li>
-            <li class="nav-item"><a href="#Contact Me" class="nav-link">Contact Me</a></li>
+            <li  class="nav-item"><a href="#Contact Me" class="nav-link">Contact Me</a></li>
         </ul>
+        <button class="logo">Know<span>Me.</span></button>
     </nav>
     <!--This will be the header section-->
     <header>
     <img src="./assets/dog.jpg" alt="Dog Art" class="digital-Art" >
-    <h1>Digital Art</h1>
+    <h1>Digital Art</h1> 
 </header>
 <!--Bio Section-->
-<section>
+<section class="aboutme-section">
     <h2>About Me</h2>
-    <p>This is a brief bio about Gak.She is interested in learning musical instrument, playing Sudoku,listnening to Music,art and Theatre</p>
+    <p>This is a brief description about Gak.She is an enthusiast in musical instrument, playing Sudoku,listnening to Music,art and Theatre</p>
 </section>
 <!--Hobbies Section-->
-<section>
+<section class="hobbies-section">
     <h2>Hobbies</h2>
     <ul>
     <li>Reading</li>
@@ -35,15 +36,15 @@
     </ul>
 </section>
 <!--Contact Form Section-->
-<section>
+<section class="contactme-section">
     <h2>Contact Me</h2>
     <form action="">
         <label for="name">Name:</label>
-        <input type="text" id="name" required>
+        <input type="text" id="name" class="form-item" required>
         <label for="e-mail">e-mail:</label>
-        <input type="text" name="" id="e-mail" required>
+        <input type="text" name="" id="e-mail" class="form-item" required>
         <label for="message">Message</label>
-        <textarea name="message" id="message" row="4"></textarea>
+        <textarea name="message" id="message" class="form-item" row="4"></textarea>
         <button type="submit">Submit</button>
     </form>
 </section>
